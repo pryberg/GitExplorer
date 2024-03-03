@@ -15,6 +15,10 @@
 		2EE71C4D2B9467CE003E05CC /* GitExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C4C2B9467CE003E05CC /* GitExplorerUITests.swift */; };
 		2EE71C4F2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C4E2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift */; };
 		2EE71C5F2B947319003E05CC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C5E2B947319003E05CC /* SplashView.swift */; };
+		2EE71C622B94786D003E05CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C612B94786D003E05CC /* Constants.swift */; };
+		2EE71C642B94796A003E05CC /* RepositoriesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C632B94796A003E05CC /* RepositoriesData.json */; };
+		2EE71C662B947A79003E05CC /* ReleaseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C652B947A79003E05CC /* ReleaseData.json */; };
+		2EE71C682B947BDF003E05CC /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C672B947BDF003E05CC /* Bundle+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		2EE71C4C2B9467CE003E05CC /* GitExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExplorerUITests.swift; sourceTree = "<group>"; };
 		2EE71C4E2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EE71C5E2B947319003E05CC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		2EE71C612B94786D003E05CC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2EE71C632B94796A003E05CC /* RepositoriesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepositoriesData.json; sourceTree = "<group>"; };
+		2EE71C652B947A79003E05CC /* ReleaseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ReleaseData.json; sourceTree = "<group>"; };
+		2EE71C672B947BDF003E05CC /* Bundle+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 		2EE71C302B9467CC003E05CC /* GitExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				2EE71C602B94780B003E05CC /* Helpers */,
 				2EE71C5B2B946F62003E05CC /* Model */,
 				2EE71C5D2B946F84003E05CC /* ViewModel */,
 				2EE71C5C2B946F70003E05CC /* View */,
@@ -152,6 +161,17 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EE71C602B94780B003E05CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2EE71C612B94786D003E05CC /* Constants.swift */,
+				2EE71C632B94796A003E05CC /* RepositoriesData.json */,
+				2EE71C652B947A79003E05CC /* ReleaseData.json */,
+				2EE71C672B947BDF003E05CC /* Bundle+extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE71C642B94796A003E05CC /* RepositoriesData.json in Resources */,
 				2EE71C392B9467CE003E05CC /* Preview Assets.xcassets in Resources */,
 				2EE71C362B9467CE003E05CC /* Assets.xcassets in Resources */,
+				2EE71C662B947A79003E05CC /* ReleaseData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +309,8 @@
 				2EE71C342B9467CC003E05CC /* RepositoriesListView.swift in Sources */,
 				2EE71C322B9467CC003E05CC /* GitExplorerApp.swift in Sources */,
 				2EE71C5F2B947319003E05CC /* SplashView.swift in Sources */,
+				2EE71C682B947BDF003E05CC /* Bundle+extension.swift in Sources */,
+				2EE71C622B94786D003E05CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
