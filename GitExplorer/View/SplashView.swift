@@ -1,10 +1,3 @@
-//
-//  SplashView.swift
-//  GitExplorer
-//
-//  Created by Peter Ryberg on 03/03/2024.
-//
-
 import SwiftUI
 
 struct SplashView: View {
