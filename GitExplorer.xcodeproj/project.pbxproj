@@ -19,6 +19,9 @@
 		2EE71C642B94796A003E05CC /* RepositoriesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C632B94796A003E05CC /* RepositoriesData.json */; };
 		2EE71C662B947A79003E05CC /* ReleaseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C652B947A79003E05CC /* ReleaseData.json */; };
 		2EE71C682B947BDF003E05CC /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C672B947BDF003E05CC /* Bundle+extension.swift */; };
+		2EE71C6C2B947F61003E05CC /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6B2B947F61003E05CC /* Root.swift */; };
+		2EE71C6E2B948213003E05CC /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6D2B948213003E05CC /* Owner.swift */; };
+		2EE71C702B94827C003E05CC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6F2B94827C003E05CC /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		2EE71C632B94796A003E05CC /* RepositoriesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepositoriesData.json; sourceTree = "<group>"; };
 		2EE71C652B947A79003E05CC /* ReleaseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ReleaseData.json; sourceTree = "<group>"; };
 		2EE71C672B947BDF003E05CC /* Bundle+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
+		2EE71C6B2B947F61003E05CC /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		2EE71C6D2B948213003E05CC /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		2EE71C6F2B94827C003E05CC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 		2EE71C5B2B946F62003E05CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2EE71C6B2B947F61003E05CC /* Root.swift */,
+				2EE71C6D2B948213003E05CC /* Owner.swift */,
+				2EE71C6F2B94827C003E05CC /* Repository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,10 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE71C342B9467CC003E05CC /* RepositoriesListView.swift in Sources */,
+				2EE71C6E2B948213003E05CC /* Owner.swift in Sources */,
 				2EE71C322B9467CC003E05CC /* GitExplorerApp.swift in Sources */,
+				2EE71C6C2B947F61003E05CC /* Root.swift in Sources */,
 				2EE71C5F2B947319003E05CC /* SplashView.swift in Sources */,
 				2EE71C682B947BDF003E05CC /* Bundle+extension.swift in Sources */,
 				2EE71C622B94786D003E05CC /* Constants.swift in Sources */,
+				2EE71C702B94827C003E05CC /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
