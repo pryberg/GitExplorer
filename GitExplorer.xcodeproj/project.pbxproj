@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2EE71C322B9467CC003E05CC /* GitExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C312B9467CC003E05CC /* GitExplorerApp.swift */; };
-		2EE71C342B9467CC003E05CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C332B9467CC003E05CC /* ContentView.swift */; };
+		2EE71C342B9467CC003E05CC /* RepositoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C332B9467CC003E05CC /* RepositoriesListView.swift */; };
 		2EE71C362B9467CE003E05CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C352B9467CE003E05CC /* Assets.xcassets */; };
 		2EE71C392B9467CE003E05CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE71C382B9467CE003E05CC /* Preview Assets.xcassets */; };
 		2EE71C432B9467CE003E05CC /* GitExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C422B9467CE003E05CC /* GitExplorerTests.swift */; };
 		2EE71C4D2B9467CE003E05CC /* GitExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C4C2B9467CE003E05CC /* GitExplorerUITests.swift */; };
 		2EE71C4F2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C4E2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift */; };
+		2EE71C5F2B947319003E05CC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C5E2B947319003E05CC /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		2EE71C2E2B9467CC003E05CC /* GitExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE71C312B9467CC003E05CC /* GitExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExplorerApp.swift; sourceTree = "<group>"; };
-		2EE71C332B9467CC003E05CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EE71C332B9467CC003E05CC /* RepositoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListView.swift; sourceTree = "<group>"; };
 		2EE71C352B9467CE003E05CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE71C382B9467CE003E05CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EE71C3E2B9467CE003E05CC /* GitExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		2EE71C482B9467CE003E05CC /* GitExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE71C4C2B9467CE003E05CC /* GitExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExplorerUITests.swift; sourceTree = "<group>"; };
 		2EE71C4E2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EE71C5E2B947319003E05CC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,10 @@
 		2EE71C302B9467CC003E05CC /* GitExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				2EE71C5B2B946F62003E05CC /* Model */,
+				2EE71C5D2B946F84003E05CC /* ViewModel */,
+				2EE71C5C2B946F70003E05CC /* View */,
 				2EE71C312B9467CC003E05CC /* GitExplorerApp.swift */,
-				2EE71C332B9467CC003E05CC /* ContentView.swift */,
 				2EE71C352B9467CE003E05CC /* Assets.xcassets */,
 				2EE71C372B9467CE003E05CC /* Preview Content */,
 			);
@@ -125,6 +129,29 @@
 				2EE71C4E2B9467CE003E05CC /* GitExplorerUITestsLaunchTests.swift */,
 			);
 			path = GitExplorerUITests;
+			sourceTree = "<group>";
+		};
+		2EE71C5B2B946F62003E05CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EE71C5C2B946F70003E05CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE71C332B9467CC003E05CC /* RepositoriesListView.swift */,
+				2EE71C5E2B947319003E05CC /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EE71C5D2B946F84003E05CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE71C342B9467CC003E05CC /* ContentView.swift in Sources */,
+				2EE71C342B9467CC003E05CC /* RepositoriesListView.swift in Sources */,
 				2EE71C322B9467CC003E05CC /* GitExplorerApp.swift in Sources */,
+				2EE71C5F2B947319003E05CC /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
