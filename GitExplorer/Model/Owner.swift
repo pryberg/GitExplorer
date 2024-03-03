@@ -1,6 +1,6 @@
 import Foundation
 
-struct Owner: Codable {
+struct Owner: Codable, Equatable {
 
   var login             : String? = nil
   var id                : Int?    = nil

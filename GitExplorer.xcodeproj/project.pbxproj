@@ -22,6 +22,7 @@
 		2EE71C6C2B947F61003E05CC /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6B2B947F61003E05CC /* Root.swift */; };
 		2EE71C6E2B948213003E05CC /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6D2B948213003E05CC /* Owner.swift */; };
 		2EE71C702B94827C003E05CC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C6F2B94827C003E05CC /* Repository.swift */; };
+		2EE71C722B9485BA003E05CC /* RepositoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE71C712B9485BA003E05CC /* RepositoriesListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		2EE71C6B2B947F61003E05CC /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 		2EE71C6D2B948213003E05CC /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		2EE71C6F2B94827C003E05CC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		2EE71C712B9485BA003E05CC /* RepositoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		2EE71C5D2B946F84003E05CC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2EE71C712B9485BA003E05CC /* RepositoriesListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE71C342B9467CC003E05CC /* RepositoriesListView.swift in Sources */,
+				2EE71C722B9485BA003E05CC /* RepositoriesListViewModel.swift in Sources */,
 				2EE71C6E2B948213003E05CC /* Owner.swift in Sources */,
 				2EE71C322B9467CC003E05CC /* GitExplorerApp.swift in Sources */,
 				2EE71C6C2B947F61003E05CC /* Root.swift in Sources */,

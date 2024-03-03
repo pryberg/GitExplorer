@@ -1,6 +1,6 @@
 import Foundation
 
-struct Repository: Codable {
+struct Repository: Codable, Equatable, Identifiable {
 
   var id                       : Int?      = nil
   var nodeId                   : String?   = nil
